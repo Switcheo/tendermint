@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/tendermint/tm-db/064"
 
 	cfg "github.com/switcheo/tendermint/config"
 	"github.com/switcheo/tendermint/crypto"

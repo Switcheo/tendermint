@@ -12,7 +12,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/tendermint/tm-db/064"
 
 	abcicli "github.com/switcheo/tendermint/abci/client"
 	abci "github.com/switcheo/tendermint/abci/types"

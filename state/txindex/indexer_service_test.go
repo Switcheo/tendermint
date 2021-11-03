@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/stretchr/testify/require"
-	db "github.com/tendermint/tm-db"
+	db "github.com/tendermint/tm-db/064"
 
 	abci "github.com/switcheo/tendermint/abci/types"
 	"github.com/switcheo/tendermint/libs/log"

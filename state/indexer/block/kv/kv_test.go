@@ -10,7 +10,7 @@ import (
 	"github.com/switcheo/tendermint/libs/pubsub/query"
 	blockidxkv "github.com/switcheo/tendermint/state/indexer/block/kv"
 	"github.com/switcheo/tendermint/types"
-	db "github.com/tendermint/tm-db"
+	db "github.com/tendermint/tm-db/064"
 )
 
 func TestBlockIndexer(t *testing.T) {

@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/tendermint/tm-db/064"
 
 	abci "github.com/switcheo/tendermint/abci/types"
 	tmmath "github.com/switcheo/tendermint/libs/math"

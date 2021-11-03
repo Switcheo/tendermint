@@ -9,7 +9,7 @@ import (
 	"strings"
 
 	"github.com/gogo/protobuf/proto"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/tendermint/tm-db/064"
 
 	abci "github.com/switcheo/tendermint/abci/types"
 	"github.com/switcheo/tendermint/libs/pubsub/query"

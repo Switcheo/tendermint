@@ -10,7 +10,7 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	gogotypes "github.com/gogo/protobuf/types"
-	dbm "github.com/tendermint/tm-db"
+	dbm "github.com/tendermint/tm-db/064"
 
 	clist "github.com/switcheo/tendermint/libs/clist"
 	"github.com/switcheo/tendermint/libs/log"

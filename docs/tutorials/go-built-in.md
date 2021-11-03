@@ -94,7 +94,7 @@ Create a file called `app.go` with the following content:
 package main
 
 import (
-	abcitypes "github.com/tendermint/tendermint/abci/types"
+	abcitypes "github.com/switcheo/tendermint/abci/types"
 )
 
 type KVStoreApplication struct {}
@@ -357,14 +357,14 @@ import (
  "github.com/dgraph-io/badger"
  "github.com/spf13/viper"
 
- abci "github.com/tendermint/tendermint/abci/types"
- cfg "github.com/tendermint/tendermint/config"
- tmflags "github.com/tendermint/tendermint/libs/cli/flags"
- "github.com/tendermint/tendermint/libs/log"
- nm "github.com/tendermint/tendermint/node"
- "github.com/tendermint/tendermint/p2p"
- "github.com/tendermint/tendermint/privval"
- "github.com/tendermint/tendermint/proxy"
+ abci "github.com/switcheo/tendermint/abci/types"
+ cfg "github.com/switcheo/tendermint/config"
+ tmflags "github.com/switcheo/tendermint/libs/cli/flags"
+ "github.com/switcheo/tendermint/libs/log"
+ nm "github.com/switcheo/tendermint/node"
+ "github.com/switcheo/tendermint/p2p"
+ "github.com/switcheo/tendermint/privval"
+ "github.com/switcheo/tendermint/proxy"
 )
 
 var configFile string

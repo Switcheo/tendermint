@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/privval"
-	"github.com/tendermint/tendermint/tools/tm-signer-harness/internal"
-	"github.com/tendermint/tendermint/version"
+	"github.com/switcheo/tendermint/crypto/ed25519"
+	"github.com/switcheo/tendermint/libs/log"
+	"github.com/switcheo/tendermint/privval"
+	"github.com/switcheo/tendermint/tools/tm-signer-harness/internal"
+	"github.com/switcheo/tendermint/version"
 )
 
 const (

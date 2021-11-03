@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/tendermint/tendermint/libs/tempfile"
+	"github.com/switcheo/tendermint/libs/tempfile"
 )
 
 /* Loading & Saving */

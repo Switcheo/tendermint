@@ -15,17 +15,17 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/tmhash"
-	"github.com/tendermint/tendermint/evidence"
-	"github.com/tendermint/tendermint/evidence/mocks"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	p2pmocks "github.com/tendermint/tendermint/p2p/mocks"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/crypto"
+	"github.com/switcheo/tendermint/crypto/tmhash"
+	"github.com/switcheo/tendermint/evidence"
+	"github.com/switcheo/tendermint/evidence/mocks"
+	"github.com/switcheo/tendermint/libs/log"
+	"github.com/switcheo/tendermint/p2p"
+	p2pmocks "github.com/switcheo/tendermint/p2p/mocks"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
+	sm "github.com/switcheo/tendermint/state"
+	"github.com/switcheo/tendermint/types"
 )
 
 var (

@@ -5,8 +5,8 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/crypto"
+	"github.com/switcheo/tendermint/types"
 )
 
 //-----------------------------------------------------

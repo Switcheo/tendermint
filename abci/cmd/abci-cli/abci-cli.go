@@ -11,18 +11,18 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/tendermint/tendermint/libs/log"
-	tmos "github.com/tendermint/tendermint/libs/os"
+	"github.com/switcheo/tendermint/libs/log"
+	tmos "github.com/switcheo/tendermint/libs/os"
 
-	abcicli "github.com/tendermint/tendermint/abci/client"
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/example/counter"
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	"github.com/tendermint/tendermint/abci/server"
-	servertest "github.com/tendermint/tendermint/abci/tests/server"
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/abci/version"
-	"github.com/tendermint/tendermint/proto/tendermint/crypto"
+	abcicli "github.com/switcheo/tendermint/abci/client"
+	"github.com/switcheo/tendermint/abci/example/code"
+	"github.com/switcheo/tendermint/abci/example/counter"
+	"github.com/switcheo/tendermint/abci/example/kvstore"
+	"github.com/switcheo/tendermint/abci/server"
+	servertest "github.com/switcheo/tendermint/abci/tests/server"
+	"github.com/switcheo/tendermint/abci/types"
+	"github.com/switcheo/tendermint/abci/version"
+	"github.com/switcheo/tendermint/proto/tendermint/crypto"
 )
 
 // client is a global variable so it can be reused by the console

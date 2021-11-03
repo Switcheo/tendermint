@@ -9,7 +9,7 @@ import (
 
 	"github.com/pkg/errors"
 
-	"github.com/tendermint/tendermint/libs/log"
+	"github.com/switcheo/tendermint/libs/log"
 )
 
 func TestTracingLogger(t *testing.T) {

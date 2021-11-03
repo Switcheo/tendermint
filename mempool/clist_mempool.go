@@ -8,17 +8,17 @@ import (
 	"sync"
 	"sync/atomic"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	auto "github.com/tendermint/tendermint/libs/autofile"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	tmmath "github.com/tendermint/tendermint/libs/math"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/switcheo/tendermint/abci/types"
+	cfg "github.com/switcheo/tendermint/config"
+	auto "github.com/switcheo/tendermint/libs/autofile"
+	"github.com/switcheo/tendermint/libs/clist"
+	"github.com/switcheo/tendermint/libs/log"
+	tmmath "github.com/switcheo/tendermint/libs/math"
+	tmos "github.com/switcheo/tendermint/libs/os"
+	tmsync "github.com/switcheo/tendermint/libs/sync"
+	"github.com/switcheo/tendermint/p2p"
+	"github.com/switcheo/tendermint/proxy"
+	"github.com/switcheo/tendermint/types"
 )
 
 // TxKeySize is the size of the transaction key index

@@ -1,12 +1,12 @@
 package consensus
 
 import (
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/clist"
-	mempl "github.com/tendermint/tendermint/mempool"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/switcheo/tendermint/abci/types"
+	"github.com/switcheo/tendermint/libs/clist"
+	mempl "github.com/switcheo/tendermint/mempool"
+	tmstate "github.com/switcheo/tendermint/proto/tendermint/state"
+	"github.com/switcheo/tendermint/proxy"
+	"github.com/switcheo/tendermint/types"
 )
 
 //-----------------------------------------------------------------------------

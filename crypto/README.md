@@ -5,10 +5,10 @@ crypto is the cryptographic package adapted for Tendermint's uses
 ## Importing it
 
 To get the interfaces,
-`import "github.com/tendermint/tendermint/crypto"`
+`import "github.com/switcheo/tendermint/crypto"`
 
 For any specific algorithm, use its specific module e.g.
-`import "github.com/tendermint/tendermint/crypto/ed25519"`
+`import "github.com/switcheo/tendermint/crypto/ed25519"`
 
 ## Binary encoding
 

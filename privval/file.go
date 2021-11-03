@@ -9,16 +9,16 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	"github.com/tendermint/tendermint/crypto"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmos "github.com/tendermint/tendermint/libs/os"
-	"github.com/tendermint/tendermint/libs/protoio"
-	"github.com/tendermint/tendermint/libs/tempfile"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	"github.com/switcheo/tendermint/crypto"
+	"github.com/switcheo/tendermint/crypto/ed25519"
+	tmbytes "github.com/switcheo/tendermint/libs/bytes"
+	tmjson "github.com/switcheo/tendermint/libs/json"
+	tmos "github.com/switcheo/tendermint/libs/os"
+	"github.com/switcheo/tendermint/libs/protoio"
+	"github.com/switcheo/tendermint/libs/tempfile"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
+	"github.com/switcheo/tendermint/types"
+	tmtime "github.com/switcheo/tendermint/types/time"
 )
 
 // TODO: type ?

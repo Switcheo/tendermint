@@ -5,14 +5,14 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/behaviour"
-	bc "github.com/tendermint/tendermint/blockchain"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	bcproto "github.com/tendermint/tendermint/proto/tendermint/blockchain"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/behaviour"
+	bc "github.com/switcheo/tendermint/blockchain"
+	"github.com/switcheo/tendermint/libs/log"
+	tmsync "github.com/switcheo/tendermint/libs/sync"
+	"github.com/switcheo/tendermint/p2p"
+	bcproto "github.com/switcheo/tendermint/proto/tendermint/blockchain"
+	"github.com/switcheo/tendermint/state"
+	"github.com/switcheo/tendermint/types"
 )
 
 const (

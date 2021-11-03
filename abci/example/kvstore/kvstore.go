@@ -8,9 +8,9 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	"github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/version"
+	"github.com/switcheo/tendermint/abci/example/code"
+	"github.com/switcheo/tendermint/abci/types"
+	"github.com/switcheo/tendermint/version"
 )
 
 var (

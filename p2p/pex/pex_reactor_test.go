@@ -13,11 +13,11 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/mock"
-	tmp2p "github.com/tendermint/tendermint/proto/tendermint/p2p"
+	"github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/libs/log"
+	"github.com/switcheo/tendermint/p2p"
+	"github.com/switcheo/tendermint/p2p/mock"
+	tmp2p "github.com/switcheo/tendermint/proto/tendermint/p2p"
 )
 
 var (

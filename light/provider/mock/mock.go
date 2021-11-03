@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/tendermint/tendermint/light/provider"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/light/provider"
+	"github.com/switcheo/tendermint/types"
 )
 
 type Mock struct {

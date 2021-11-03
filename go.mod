@@ -1,4 +1,4 @@
-module github.com/tendermint/tendermint
+module github.com/switcheo/tendermint
 
 go 1.15
 

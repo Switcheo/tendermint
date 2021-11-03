@@ -7,10 +7,10 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/abci/example/kvstore"
+	abci "github.com/switcheo/tendermint/abci/types"
+	"github.com/switcheo/tendermint/proxy"
+	"github.com/switcheo/tendermint/types"
 )
 
 func TestCacheRemove(t *testing.T) {

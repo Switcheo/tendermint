@@ -5,10 +5,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/tendermint/tendermint/libs/bits"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	"github.com/switcheo/tendermint/libs/bits"
+	tmjson "github.com/switcheo/tendermint/libs/json"
+	tmsync "github.com/switcheo/tendermint/libs/sync"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
 )
 
 const (

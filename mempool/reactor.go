@@ -6,13 +6,13 @@ import (
 	"math"
 	"time"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/clist"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	protomem "github.com/tendermint/tendermint/proto/tendermint/mempool"
-	"github.com/tendermint/tendermint/types"
+	cfg "github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/libs/clist"
+	"github.com/switcheo/tendermint/libs/log"
+	tmsync "github.com/switcheo/tendermint/libs/sync"
+	"github.com/switcheo/tendermint/p2p"
+	protomem "github.com/switcheo/tendermint/proto/tendermint/mempool"
+	"github.com/switcheo/tendermint/types"
 )
 
 const (

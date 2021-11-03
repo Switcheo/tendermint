@@ -9,18 +9,18 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 
-	cstypes "github.com/tendermint/tendermint/consensus/types"
-	"github.com/tendermint/tendermint/libs/bits"
-	tmevents "github.com/tendermint/tendermint/libs/events"
-	tmjson "github.com/tendermint/tendermint/libs/json"
-	"github.com/tendermint/tendermint/libs/log"
-	tmsync "github.com/tendermint/tendermint/libs/sync"
-	"github.com/tendermint/tendermint/p2p"
-	tmcons "github.com/tendermint/tendermint/proto/tendermint/consensus"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
-	tmtime "github.com/tendermint/tendermint/types/time"
+	cstypes "github.com/switcheo/tendermint/consensus/types"
+	"github.com/switcheo/tendermint/libs/bits"
+	tmevents "github.com/switcheo/tendermint/libs/events"
+	tmjson "github.com/switcheo/tendermint/libs/json"
+	"github.com/switcheo/tendermint/libs/log"
+	tmsync "github.com/switcheo/tendermint/libs/sync"
+	"github.com/switcheo/tendermint/p2p"
+	tmcons "github.com/switcheo/tendermint/proto/tendermint/consensus"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
+	sm "github.com/switcheo/tendermint/state"
+	"github.com/switcheo/tendermint/types"
+	tmtime "github.com/switcheo/tendermint/types/time"
 )
 
 const (

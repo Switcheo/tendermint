@@ -7,9 +7,9 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/store"
+	cfg "github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/state"
+	"github.com/switcheo/tendermint/store"
 )
 
 var RollbackStateCmd = &cobra.Command{

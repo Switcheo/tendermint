@@ -13,16 +13,16 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/tendermint/tendermint/abci/example/kvstore"
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	"github.com/tendermint/tendermint/p2p/mock"
-	memproto "github.com/tendermint/tendermint/proto/tendermint/mempool"
-	"github.com/tendermint/tendermint/proxy"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/abci/example/kvstore"
+	abci "github.com/switcheo/tendermint/abci/types"
+	cfg "github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/libs/log"
+	tmrand "github.com/switcheo/tendermint/libs/rand"
+	"github.com/switcheo/tendermint/p2p"
+	"github.com/switcheo/tendermint/p2p/mock"
+	memproto "github.com/switcheo/tendermint/proto/tendermint/mempool"
+	"github.com/switcheo/tendermint/proxy"
+	"github.com/switcheo/tendermint/types"
 )
 
 const (

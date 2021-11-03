@@ -9,10 +9,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/tendermint/tendermint/abci/example/code"
-	abci "github.com/tendermint/tendermint/abci/types"
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/version"
+	"github.com/switcheo/tendermint/abci/example/code"
+	abci "github.com/switcheo/tendermint/abci/types"
+	"github.com/switcheo/tendermint/libs/log"
+	"github.com/switcheo/tendermint/version"
 )
 
 // Application is an ABCI application for use by end-to-end tests. It is a

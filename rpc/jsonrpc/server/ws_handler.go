@@ -12,9 +12,9 @@ import (
 
 	"github.com/gorilla/websocket"
 
-	"github.com/tendermint/tendermint/libs/log"
-	"github.com/tendermint/tendermint/libs/service"
-	types "github.com/tendermint/tendermint/rpc/jsonrpc/types"
+	"github.com/switcheo/tendermint/libs/log"
+	"github.com/switcheo/tendermint/libs/service"
+	types "github.com/switcheo/tendermint/rpc/jsonrpc/types"
 )
 
 // WebSocket handler

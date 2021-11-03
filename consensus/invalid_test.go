@@ -3,12 +3,12 @@ package consensus
 import (
 	"testing"
 
-	"github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/log"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	"github.com/tendermint/tendermint/p2p"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	"github.com/tendermint/tendermint/types"
+	"github.com/switcheo/tendermint/libs/bytes"
+	"github.com/switcheo/tendermint/libs/log"
+	tmrand "github.com/switcheo/tendermint/libs/rand"
+	"github.com/switcheo/tendermint/p2p"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
+	"github.com/switcheo/tendermint/types"
 )
 
 //----------------------------------------------

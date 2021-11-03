@@ -263,8 +263,8 @@ paths:
         DeliverTx response.
 
         import (
-            abci "github.com/tendermint/tendermint/abci/types"
-            "github.com/tendermint/tendermint/libs/pubsub/query"
+            abci "github.com/switcheo/tendermint/abci/types"
+            "github.com/switcheo/tendermint/libs/pubsub/query"
         )
 
         abci.ResponseDeliverTx{
@@ -338,7 +338,7 @@ paths:
 
         ```go
         import rpchttp "github.com/tendermint/rpc/client/http"
-        import "github.com/tendermint/tendermint/types"
+        import "github.com/switcheo/tendermint/types"
 
         client := rpchttp.New("tcp:0.0.0.0:26657", "/websocket")
         err := client.Start()

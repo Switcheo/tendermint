@@ -6,10 +6,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/tendermint/tendermint/crypto"
-	tmbytes "github.com/tendermint/tendermint/libs/bytes"
-	"github.com/tendermint/tendermint/libs/protoio"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
+	"github.com/switcheo/tendermint/crypto"
+	tmbytes "github.com/switcheo/tendermint/libs/bytes"
+	"github.com/switcheo/tendermint/libs/protoio"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
 )
 
 const (

@@ -13,15 +13,15 @@ import (
 
 	dbm "github.com/tendermint/tm-db"
 
-	abci "github.com/tendermint/tendermint/abci/types"
-	cfg "github.com/tendermint/tendermint/config"
-	"github.com/tendermint/tendermint/crypto/ed25519"
-	cryptoenc "github.com/tendermint/tendermint/crypto/encoding"
-	tmrand "github.com/tendermint/tendermint/libs/rand"
-	tmstate "github.com/tendermint/tendermint/proto/tendermint/state"
-	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
-	sm "github.com/tendermint/tendermint/state"
-	"github.com/tendermint/tendermint/types"
+	abci "github.com/switcheo/tendermint/abci/types"
+	cfg "github.com/switcheo/tendermint/config"
+	"github.com/switcheo/tendermint/crypto/ed25519"
+	cryptoenc "github.com/switcheo/tendermint/crypto/encoding"
+	tmrand "github.com/switcheo/tendermint/libs/rand"
+	tmstate "github.com/switcheo/tendermint/proto/tendermint/state"
+	tmproto "github.com/switcheo/tendermint/proto/tendermint/types"
+	sm "github.com/switcheo/tendermint/state"
+	"github.com/switcheo/tendermint/types"
 )
 
 // setupTestCase does setup common to all test cases.

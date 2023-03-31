@@ -720,7 +720,6 @@ func (cs *State) receiveRoutine(maxSteps int) {
 
 		cs.wal.Wait()
 		close(cs.done)
-		os.Exit(1)
 	}
 
 	defer func() {
